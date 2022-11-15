@@ -1,0 +1,66 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:visited {
+	color:none;
+}
+
+
+.dt> tr{
+	background-color: var(--lgc);
+	padding: 0.25rem 0;
+	
+}
+.space{
+	background: transparent !important;
+	padding:0;
+	margin:0;
+	font-size:  0.03125rem;
+}
+
+.tabledata> h1{
+	margin: 0;
+	font-size: 0.78125rem;
+	font-weight: 650;
+	color: var(--dtc)
+}
+.delete{
+	position: relative;
+	width: 20%;
+	color: transparent;
+}
+.delete::before{
+	content: "DELETE";
+	position: absolute;
+	color:var(--wtc);
+	background: var(--gc);
+	height: 100%;
+	top:0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size:  0.7375rem;
+}
+.tablecontent{
+	color: var(--dtc);
+	margin:   0.1875rem;
+	font-size:  0.725rem !important;
+}

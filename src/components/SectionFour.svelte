@@ -1,0 +1,22 @@
+<article>
+    <div class="art">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16"><defs><clipPath id="a"><rect width="16" height="16" fill="none"/></clipPath></defs><g clip-path="url(#a)"><path d="M8,0,6.545,1.455l5.506,5.506H0V9.039H12.052L6.545,14.545,8,16l8-8Z" transform="translate(16) rotate(90)" fill="#d7ecfe"/></g></svg>
+    </div>
+</article>
+
+<style lang="scss">
+    article{
+        display: flex;
+        justify-content: flex-end;
+        margin: 20px 0;        
+        .art{
+            background: var(--dbc);
+            padding: 10px;
+            width: 65px;
+            display:flex;
+            justify-content: center;
+
+            
+        }
+    }
+</style>
